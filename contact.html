@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PT Larissa Winri Prakarsa</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <style>
+        .contact-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .contact-box {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .contact-box h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .contact-box a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        .contact-icon {
+            font-size: 2rem;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav-menu">
+            <div class="logo-container">
+                <img src="logoLarissa.png" alt="Logo PT Larissa">
+                <span class="company-name">PT LARISSA WINRI PRAKARSA</span>
+            </div>
+            <ul class="menu-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="services.html">Produk</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="contact-box">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <p><a href="mailto:info@ptlarissa.com">info@ptlarissa.com</a></p>
+            </div>
+            <div class="contact-box">
+                <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <h3>Telepon</h3>
+            <p><a href="tel:+6282283042144">+62 822 8304 2144</a></p>
+            <p><a href="tel:+6282286446997">+62 822 8644 6997</a></p>
+            <p><a href="tel:+6287713574179">+62 877 1357 4179</a></p>
+            </div>
+            <div class="contact-box">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Head Office</h3>
+                <p>Jl. Ganting IV No. 10 Y Padang</p>
+                <h3>Brand Office</h3>
+                <p>Monroe Tower, Jl. Hj Usmar Ismail, Mekarmukti, Cikarang Utara, Bekasi, Jawa Barat</p>
+            </div>
+        </section>
+
+     
+        <section class="maps-container">
+            <h2>Lokasi Kami</h2>
+         
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3163408899184!2d100.3684209!3d-0.953919399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b942514b6201%3A0xa1b21780107be7a8!2sKangen%20Water%20Eja!5e0!3m2!1sen!2sid!4v1737220581043!5m2!1sen!2sid" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Head Office</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7824556924243!2d107.16812257462811!3d-6.292296993696717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b4c743aa8cd%3A0xc037f2fa84806023!2sMonroe%20Tower%20Apartemen%20Hollywood%20Junction!5e0!3m2!1sen!2sid!4v1737220639911!5m2!1sen!2sid" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Brand Office</p>
+            </div>
+        </section>
+        
+        <section class="form-section">
+            <h2>Kirim Pesan Kepada Kami</h2>
+            <hr> <!-- Garis di bawah Kirim Pesan Kepada Kami -->
+            <form>
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+                
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+            </form>
+        </section>
+        
+    
+    </main>
+
+    <a href="https://wa.me/6282283042144?text=halo" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i> Hubungi Kami!
+    </a>
+    
+    
+    <footer>
+        <p>&copy; <span id="currentYear"></span> PT. Larissa Winri Prakarsa. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

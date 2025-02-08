@@ -1,0 +1,472 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom, #2d3a3a, #45575b);
+    overflow-x: hidden;
+    .parisienne-regular {
+        font-family: "Parisienne", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+/* Header Styling */
+.hero {
+    background: linear-gradient(to right, #6d7d7d, #a3a39b);
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #a3a39b;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #113047;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 1px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    background: lightgrey;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 20px;
+    background: #2d3a3a;
+    color: #fff;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #45575b;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+/* Values Section */
+.values-section {
+    background: #3e4c4f;
+    color: white;
+    padding: 50px 20px;
+}
+
+.values-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.value-item {
+    flex: 1;
+    padding: 20px;
+    background: #2d3a3a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.value-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #45575b;
+}
+
+.value-item p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Leadership Section */
+.leadership-section {
+    padding: 50px 20px;
+    background: #2d3a3a;
+    color: white;
+    text-align: center;
+}
+
+.leadership-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.leader-card {
+    background: #3e4c4f;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+}
+
+.leader-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.leader-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #6D120B;
+}
+
+.leader-card p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Organization Chart Section */
+/* Organization Chart Styling */
+.org-chart-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.org-chart-container h1 {
+    font-size: 2.5rem; /* Ukuran font lebih besar */
+    font-weight: bold;
+    color: white; /* Warna teks putih agar kontras */
+    text-transform: uppercase; /* Semua huruf kapital */
+    text-align: center; /* Pusatkan teks */
+    margin-bottom: 20px; /* Jarak bawah agar tidak terlalu rapat */
+    padding-bottom: 10px;
+    border-bottom: 4px solid #6d120b; /* Garis bawah untuk pemisah */
+    display: inline-block;
+}
+
+/* Struktur Organisasi */
+.org-chart {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.org-chart ul {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Garis antar elemen */
+.org-chart li {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.org-chart li::before,
+.org-chart li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.org-chart li::before {
+    right: 50%;
+    border-right: 2px solid #ccc;
+}
+
+.org-chart li::after {
+    left: 50%;
+    border-left: 2px solid #ccc;
+}
+
+/* Garis vertikal */
+.org-chart ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid #ccc;
+    width: 0;
+    height: 20px;
+}
+
+.org-chart li:only-child::before,
+.org-chart li:only-child::after {
+    display: none;
+}
+
+.org-chart li:first-child::before {
+    border-radius: 5px 0 0 0;
+}
+
+.org-chart li:last-child::after {
+    border-radius: 0 5px 0 0;
+}
+
+/* Box Styling */
+.box {
+    display: inline-block;
+    background: #3e4c4f;
+    border: 2px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    text-align: center;
+    width: 200px;
+    color: white;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #6d7d7d;
+}
+
+.box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.box h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #113047;
+}
+
+.box p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .org-chart ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .org-chart li {
+        padding: 10px;
+    }
+
+    .box {
+        width: 170px;
+    }
+
+    .box h3 {
+        font-size: 1rem;
+    }
+
+    .box p {
+        font-size: 0.8rem;
+    }
+}
+
+
+/* Testimonials Section */
+.testimonials {
+    background: #45575b;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-item span {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background: linear-gradient(to right, #6d7d7d, #a3a39b);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #45575b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-button,
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    padding: 10px 15px;
+    background: #25d366;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button {
+    bottom: 80px;
+}
+
+.back-to-top {
+    bottom: 20px;
+    background: #333;
+}
+
+.whatsapp-button:hover,
+.back-to-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - PT Larissa Winri Prakarsa</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav-menu">
+            <div class="logo-container">
+                <img src="logoLarissa.png" alt="Logo PT Larissa">
+                <span class="company-name">PT LARISSA WINRI PRAKARSA</span>
+            </div>
+            <ul class="menu-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html" class="active">Profil</a></li>
+                <li><a href="services.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Company Overview Section -->
+        <section class="about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>
+                        PT Larissa Winri Prakarsa adalah perusahaan swasta nasional yang bergerak di bidang konsultasi Bank Garansi dan Surety Bond. Kami berperan dalam mendukung proyek di sektor konstruksi, perdagangan, dan layanan profesional.
+                    </p>
+                    <p>
+                        Sebagai mitra terpercaya, kami menghadirkan solusi finansial inovatif dan terjamin, seperti Bank Garansi untuk menjamin kewajiban keuangan klien serta Surety Bond yang memastikan kelancaran proyek sesuai kontrak.
+                    </p>
+                    <p>Kami melayani proyek residensial, komersial, dan infrastruktur dengan pendekatan profesional yang mengutamakan kualitas, keberlanjutan, dan efisiensi. Dengan tim berdedikasi dan pengalaman luas, kami berkomitmen memberikan layanan unggul serta berkontribusi nyata dalam pembangunan nasional.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Frame 12.png" alt="Tim PT Larissa">
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission, Vision, and Values Section -->
+        <section class="values-section">
+            <div class="values-container">
+                <div class="value-item">
+                    <h3>Our Mission</h3>
+                    <p>
+                        Menyediakan layanan cepat, aman, dan berkualitas dengan fokus pada kepuasan pelanggan dan pencapaian shasil optimal, melalui pendekatan inovatif dan profesional.
+                    </p>
+                </div>
+                <div class="value-item">
+                    <h3>Our Vision</h3>
+                    <p>
+                        Menjadi mitra terpercaya dan unggul dalam mendukung keberhasilan proyek klien melalui solusi keuangan yang inovatif dan berkualitas.
+                    </p>
+                </div>
+                <div class="value-item">
+                    <h3>Our Values</h3>
+                    <p>
+                        Integritas, inovasi, dan keberlanjutan adalah inti dari setiap tindakan kami.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    
+
+        <div class="org-chart-container">
+            <h1>Manajemen Perusahaan</h1>
+            <ul class="org-chart">
+                <li>
+                    <div class="box">
+                        <img src="papi.png" alt="Foto Dewan Komisaris">
+                        <h3>Ir. Erwin Isril, S.T, M.T, IPP</h3>
+                        <p>President Commissioner</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="box">
+                                <img src="Frame 15.png" alt="Foto CEO">
+                                <h3>Riri Budhiarsih, S.T</h3>
+                                <p>Chief Executive Officer (CEO)</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="box">
+                                        <img src="cayla.jpg" alt="Foto CTO">
+                                        <h3>Cayla Winri Azzahra</h3>
+                                        <p>Chief Technology Officer (CTO)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <img src="omid.png" alt="Foto CFO">
+                                        <h3>Ahmad Ridha Putra, S.T</h3>
+                                        <p>Administrative Manager</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box">
+                                        <img src="Frame 13.png" alt="Foto CFO">
+                                        <h3>Hari Novianto. S.T , M.M </h3>
+                                        <p>Chief Marketing Officer (CMO)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    
+
+        <!-- Contact Call-to-Action -->
+        <section class="cta-section">
+            <h2>Ready to Build Your Future?</h2>
+            <p>Hubungi kami untuk mendapatkan konsultasi gratis untuk proyek konstruksi Anda.</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> PT. Larissa Winri Prakarsa. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Update footer year dynamically
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

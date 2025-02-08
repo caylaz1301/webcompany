@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - PT Larissa Winri Prakarsa</title>
+    <link rel="stylesheet" href="services.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav-menu">
+            <div class="logo-container">
+                <img src="logoLarissa.png" alt="Logo PT Larissa">
+                <span class="company-name">PT LARISSA WINRI PRAKARSA</span>
+            </div>
+            <ul class="menu-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="services.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services-section">
+            <h1>Produk Kami</h1>
+            <div class="services-list">
+                <!-- Product 1 -->
+                <div class="service-item">
+                    <div class="service-image" style="background-image: url(bid\ bond.jpeg);">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Jaminan Penawaran (Bid Bond)</h3>
+                        <p>Jaminan yang memastikan peserta tender akan mematuhi semua syarat dan ketentuan lelang. Melindungi penyelenggara dari risiko kegagalan peserta.</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="service-item">
+                    <div class="service-image"style="background-image: url(performance.png);">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Jaminan Pelaksanaan (Performance Bond)</h3>
+                        <p>Menjamin bahwa kontraktor akan menyelesaikan proyek sesuai kontrak. Memberikan kompensasi jika pekerjaan tidak selesai.</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="service-item">
+                    <div class="service-image" style="background-image: url(uangmuka.png);">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Jaminan Uang Muka (Advance Payment Bond)</h3>
+                        <p>Jaminan penggunaan uang muka untuk melaksanakan proyek sesuai kontrak. Memberikan rasa aman kepada pemberi proyek.</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="service-item">
+                    <div class="service-image" style="background-image: url(maintenance.png);">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Jaminan Pemeliharaan (Maintenance Bond)</h3>
+                        <p>Menjamin tanggung jawab kontraktor atas perawatan atau kerusakan setelah penyelesaian pekerjaan selama periode tertentu.</p>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="service-item">
+                    <div class="service-image" style="background-image: url(pembayaran.png);">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Jaminan Pembayaran (Payment Bond)</h3>
+                        <p>Memastikan pihak berutang memenuhi kewajiban pembayaran sesuai nilai dan jadwal yang ditetapkan dalam kontrak.</p>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="service-item">
+                    <div class="service-image" style="background-image: url(sp2d.png);">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>SP2D Bank Garansi</h3>
+                        <p>Jaminan pembayaran kepada kontraktor meskipun proyek belum selesai. Memberikan kepercayaan bahwa pekerjaan akan diselesaikan.</p>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="service-item">
+                    <div class="service-image"style="background-image: url(asuransi.png);" >
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3>Asuransi Umum (General Insurance)</h3>
+                        <p>Perlindungan terhadap kerugian atau kerusakan aset seperti properti dan kendaraan. Memberikan kompensasi atas risiko tak terduga.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/6282283042144?text=halo" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i> Hubungi Kami!
+    </a>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> PT. Larissa Winri Prakarsa. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
